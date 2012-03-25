@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">x Reverse / + Reverse</string>
+    <string name="StartButton">Game Start</string>
+    <string name="Toast_RemoveTable">スコアデータを削除しました</string>
+    <string name="Menu_HighScore">ハイスコア</string>
+    <string name="Menu_StageSelect">ステージ選択</string>
+    <string name="Menu_ScoreClear">スコアのクリア</string>
+    <string name="DialogTitle_StageSelect">ステージ選択</string>
+
+</resources>

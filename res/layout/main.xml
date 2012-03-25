@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ImageView_Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title"
+        android:padding="20sp"
+        android:paddingBottom="50sp" />
+
+    <!--
+         ImageView
+        android:id="@+id/ImageView_Mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/mode_select"
+        android:paddingBottom="30sp"
+        android:paddingLeft="80sp"
+        android:paddingRight="80sp"
+        android:paddingTop="40sp" /
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/Button_ModeX"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stage_select_x"
+            android:onClick="onXButtonClicked" />
+
+        <Button
+            android:id="@+id/Button_ModeP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stage_select_p"
+            android:onClick="onPButtonClicked" />
+    </LinearLayout>
+
+</LinearLayout>
